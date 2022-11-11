@@ -1,0 +1,682 @@
+{
+  "uid" : "3edf29abea9acc3f",
+  "name" : "checkUIElements()",
+  "fullName" : "test.LoginPage.TestMyAIR114esp.checkUIElements",
+  "historyId" : "f9b71c74d8151616295b39fc85eae4ee",
+  "time" : {
+    "start" : 1668158676628,
+    "stop" : 1668158684292,
+    "duration" : 7664
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Загрузка головної сторінки https://my.develop.airmedia.tech/",
+      "time" : {
+        "start" : 1668158676628,
+        "stop" : 1668158679606,
+        "duration" : 2978
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вибір локалізації",
+      "time" : {
+        "start" : 1668158679607,
+        "stop" : 1668158680367,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Español "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка заголовку сторінки",
+      "time" : {
+        "start" : 1668158680367,
+        "stop" : 1668158680545,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Iniciar sesión"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка підзаголовку сторінки",
+      "time" : {
+        "start" : 1668158680545,
+        "stop" : 1668158680566,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "¿No tiene cuenta?"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на реєстрацію зі сторінки Логін",
+      "time" : {
+        "start" : 1668158680566,
+        "stop" : 1668158680611,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Crear una cuenta "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваше ім'я(text label and placeholder)",
+      "time" : {
+        "start" : 1668158680611,
+        "stop" : 1668158680666,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Email"
+      }, {
+        "name" : "someAtrText",
+        "value" : "Email address"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваш пароль (text label and placeholder)",
+      "time" : {
+        "start" : 1668158680666,
+        "stop" : 1668158680715,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Contraseña"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка чекбоксу з текстом Запам'ятати",
+      "time" : {
+        "start" : 1668158680715,
+        "stop" : 1668158680757,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Recordar mi contraseña "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на відновлення паролю",
+      "time" : {
+        "start" : 1668158680757,
+        "stop" : 1668158680800,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Restablecer contraseña "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка кнопки Увійти",
+      "time" : {
+        "start" : 1668158680800,
+        "stop" : 1668158680841,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Iniciar sesión "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на  Політику конфіденційності ",
+      "time" : {
+        "start" : 1668158680841,
+        "stop" : 1668158680880,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Privacy Policy "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перехід до розділу з реєстрацієй",
+      "time" : {
+        "start" : 1668158680880,
+        "stop" : 1668158680931,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірка заголовку сторінки",
+      "time" : {
+        "start" : 1668158680931,
+        "stop" : 1668158681794,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Crear cuenta"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка підзаголовку сторінки",
+      "time" : {
+        "start" : 1668158681794,
+        "stop" : 1668158681815,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " ¿Ya tiene una cuenta? "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на реєстрацію зі сторінки Логін",
+      "time" : {
+        "start" : 1668158681815,
+        "stop" : 1668158681842,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Iniciar sesión "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваше ім'я(text label and placeholder)",
+      "time" : {
+        "start" : 1668158681842,
+        "stop" : 1668158681881,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Su nombre "
+      }, {
+        "name" : "someAtrText",
+        "value" : "Nombre"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваш емайл(text label and placeholder)",
+      "time" : {
+        "start" : 1668158681881,
+        "stop" : 1668158681927,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Email"
+      }, {
+        "name" : "someAtrText",
+        "value" : "Dirección de correo electrónico"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваш пароль (text label and placeholder)",
+      "time" : {
+        "start" : 1668158681927,
+        "stop" : 1668158681975,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Cree una nueva contraseña "
+      }, {
+        "name" : "someAtrText",
+        "value" : "Cree una nueva contraseña"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Посилання на youtube канал (text label and placeholder)",
+      "time" : {
+        "start" : 1668158681975,
+        "stop" : 1668158682022,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Enlace al canal de YouTube "
+      }, {
+        "name" : "someAtrText",
+        "value" : "https://www.youtube.com..."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Спосіб зв’язку (text label and placeholder)",
+      "time" : {
+        "start" : 1668158682022,
+        "stop" : 1668158682070,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Método de comunicación preferido "
+      }, {
+        "name" : "someAtrText",
+        "value" : "Nombre de usuario"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тултіпу Спосіб зв’язку (text label and placeholder)",
+      "time" : {
+        "start" : 1668158682070,
+        "stop" : 1668158682661,
+        "duration" : 591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "toolTipText",
+        "value" : "¿Porqué necesitamos ésta información?\nNos responsabilizamos de la seguridad de su canal. Necesitamos tener un acceso rápido para ponernos en contacto con usted en caso de emergencias, actualizaciones importantes de la plataforma o recomendaciones de desarrollo para su canal. "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка чекбоксу з текстом Я погоджуюсь...",
+      "time" : {
+        "start" : 1668158682661,
+        "stop" : 1668158682717,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "agreementText",
+        "value" : "Estoy de acuerdo con los Privacy Policy  al registrarse y crear una cuenta personal. También acepto recibir información sobre los servicios, ofertas y actualizaciones de AIR Creators Ecosystem. "
+      }, {
+        "name" : "linkPolicy",
+        "value" : "https://storage.air.io/agreements/privacy-policy-amg-inc-en.pdf"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка кнопки Увійти",
+      "time" : {
+        "start" : 1668158682717,
+        "stop" : 1668158682755,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Crear cuenta "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на  Політику конфіденційності(сторінка створення акаунту) ",
+      "time" : {
+        "start" : 1668158682755,
+        "stop" : 1668158682776,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Privacy Policy "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перехід до розділу з авторизацієй",
+      "time" : {
+        "start" : 1668158682776,
+        "stop" : 1668158682821,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перехід до розділу з відновлення паролю",
+      "time" : {
+        "start" : 1668158682822,
+        "stop" : 1668158683519,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірка заголовку сторінки",
+      "time" : {
+        "start" : 1668158683519,
+        "stop" : 1668158684093,
+        "duration" : 574
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "¿Ha olvidado su contraseña? No se preocupe:)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка підзаголовку сторінки",
+      "time" : {
+        "start" : 1668158684094,
+        "stop" : 1668158684111,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "Introduzca su correo electrónico y le enviaremos un enlace para recuperar el acceso a su cuenta."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка інпуту Ваш емайл(text label and placeholder)",
+      "time" : {
+        "start" : 1668158684111,
+        "stop" : 1668158684153,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Email "
+      }, {
+        "name" : "someAtrText",
+        "value" : "Introduzca su correo electrónico"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка кнопки Увійти",
+      "time" : {
+        "start" : 1668158684153,
+        "stop" : 1668158684191,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Restaurar contraseña "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту та посилання в блоці  Є питання",
+      "time" : {
+        "start" : 1668158684191,
+        "stop" : 1668158684241,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : "¿Tiene preguntas? Envíenos un correo electrónico a support@air.io"
+      }, {
+        "name" : "someLinkText",
+        "value" : "support@air.io"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на  Політику конфіденційності ",
+      "time" : {
+        "start" : 1668158684241,
+        "stop" : 1668158684270,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Privacy Policy "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірка тексту посилання на реєстрацію зі сторінки Логін",
+      "time" : {
+        "start" : 1668158684270,
+        "stop" : 1668158684292,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "someText",
+        "value" : " Atrás "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 33,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Перевірка статичних UI елементів розділу Авторизація, іспанська локалізація"
+  }, {
+    "name" : "epic",
+    "value" : "Перевірка сторінки входу"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I04KADM"
+  }, {
+    "name" : "thread",
+    "value" : "17272@DESKTOP-I04KADM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.LoginPage.TestMyAIR114esp"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginPage.TestMyAIR114esp"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUIElements"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginPage.TestMyAIR114esp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3edf29abea9acc3f.json",
+  "parameterValues" : [ ]
+}

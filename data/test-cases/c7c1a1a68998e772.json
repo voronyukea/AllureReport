@@ -1,0 +1,760 @@
+{
+  "uid" : "c7c1a1a68998e772",
+  "name" : "checkUIElements()",
+  "fullName" : "test.LoginPage.TestMyAIR85.checkUIElements",
+  "historyId" : "a098f3b64dcdbb9f8993b4d50494903a",
+  "time" : {
+    "start" : 1668158954448,
+    "stop" : 1668158972026,
+    "duration" : 17578
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Загрузка головної сторінки https://my.develop.airmedia.tech/",
+      "time" : {
+        "start" : 1668158954449,
+        "stop" : 1668158957448,
+        "duration" : 2999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перехід до розділу з реєстрацієй",
+      "time" : {
+        "start" : 1668158957448,
+        "stop" : 1668158957665,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Введення валідного імені",
+      "time" : {
+        "start" : 1668158957665,
+        "stop" : 1668158958393,
+        "duration" : 728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameUser",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного email",
+      "time" : {
+        "start" : 1668158958393,
+        "stop" : 1668158958460,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mailUser",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного паролю",
+      "time" : {
+        "start" : 1668158958460,
+        "stop" : 1668158958523,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "PassCode",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного посилання на youtube канал",
+      "time" : {
+        "start" : 1668158958523,
+        "stop" : 1668158958628,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "channelLink",
+        "value" : "123456qqqq"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного посилання на youtube канал",
+      "time" : {
+        "start" : 1668158958628,
+        "stop" : 1668158958985,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contactData",
+        "value" : "Qwewer65465r4qwr6q5w4r654f56f456asdf4sd5f46s5d4f6s5d4fs65d4f6s5d4f65d4g6sd546h54a6sd54h654656574h56a4dh65a4dsh654asd6h54a6sd5h46as5dh46a5sdh46as5d4h654dhadg546546546t546as54h65as4h6s7h6asd7h56a4sdh65a4sdh654asd65ha6sd5h56asd4h5csahasdhsdhsdhsdhsdhsdhhhddd91"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Клік на чек-боксі згоди з політикою",
+      "time" : {
+        "start" : 1668158958985,
+        "stop" : 1668158959025,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158959025,
+        "stop" : 1668158959397,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Русский "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158959397,
+        "stop" : 1668158961457,
+        "duration" : 2060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158961458,
+        "stop" : 1668158962125,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Поле \"Ваше имя\" обязательно для заполнения. "
+      }, {
+        "name" : "numElem",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158962125,
+        "stop" : 1668158962151,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Поле \"Ваш email\" обязательно для заполнения. "
+      }, {
+        "name" : "numElem",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158962151,
+        "stop" : 1668158962175,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Поле \"Пароль\" обязательно для заполнения. "
+      }, {
+        "name" : "numElem",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158962175,
+        "stop" : 1668158962202,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Значение поля YouTube-канал имеет ошибочный формат URL. "
+      }, {
+        "name" : "numElem",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158962202,
+        "stop" : 1668158962227,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Поле Предпочитаемый способ связи не может быть больше 255 символов. "
+      }, {
+        "name" : "numElem",
+        "value" : "5"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158962227,
+        "stop" : 1668158962835,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Українська "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158962835,
+        "stop" : 1668158964890,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158964890,
+        "stop" : 1668158965573,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Заповнення поля \"Ваше ім'я\" обовʼязкове. "
+      }, {
+        "name" : "numElem",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158965573,
+        "stop" : 1668158965592,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Заповнення поля \"Ваш email\" обовʼязкове. "
+      }, {
+        "name" : "numElem",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158965592,
+        "stop" : 1668158965613,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Заповнення поля \"Пароль\" обовʼязкове. "
+      }, {
+        "name" : "numElem",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158965613,
+        "stop" : 1668158965634,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Формат поля YouTube-канал хибний. "
+      }, {
+        "name" : "numElem",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158965634,
+        "stop" : 1668158965655,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Текст в полі Спосіб зв’язку повинен мати довжину не більшу за 255. "
+      }, {
+        "name" : "numElem",
+        "value" : "5"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158965656,
+        "stop" : 1668158966189,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Español "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158966189,
+        "stop" : 1668158968254,
+        "duration" : 2065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158968254,
+        "stop" : 1668158968952,
+        "duration" : 698
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El campo Su nombre es requerido. "
+      }, {
+        "name" : "numElem",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158968952,
+        "stop" : 1668158968989,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El campo Su correo electrónico es requerido. "
+      }, {
+        "name" : "numElem",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158968989,
+        "stop" : 1668158969012,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El campo Contraseña es requerido. "
+      }, {
+        "name" : "numElem",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158969012,
+        "stop" : 1668158969035,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El formato del campo Canal de YouTube es inválido. "
+      }, {
+        "name" : "numElem",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158969035,
+        "stop" : 1668158969057,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El campo Método de comunicación preferido no debe contener más de 255 caracteres. "
+      }, {
+        "name" : "numElem",
+        "value" : "5"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158969057,
+        "stop" : 1668158969184,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " English "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158969185,
+        "stop" : 1668158971253,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158971253,
+        "stop" : 1668158971934,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The Your name field is required. "
+      }, {
+        "name" : "numElem",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158971934,
+        "stop" : 1668158971960,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The Your email field is required. "
+      }, {
+        "name" : "numElem",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158971960,
+        "stop" : 1668158971984,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The Password field is required. "
+      }, {
+        "name" : "numElem",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158971984,
+        "stop" : 1668158972005,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The YouTube channel must be a valid URL."
+      }, {
+        "name" : "numElem",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перевірити, що є алерт про помилку в n-інпуті",
+      "time" : {
+        "start" : 1668158972005,
+        "stop" : 1668158972026,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The Preferred contact may not be greater than 255 characters. "
+      }, {
+        "name" : "numElem",
+        "value" : "5"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 36,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Перевірка сторінки входу"
+  }, {
+    "name" : "story",
+    "value" : "Реєстрація нового користувача (неправильні дані обов'язкові та опціональні поля) MyAIR-85"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I04KADM"
+  }, {
+    "name" : "thread",
+    "value" : "17272@DESKTOP-I04KADM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.LoginPage.TestMyAIR85"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginPage.TestMyAIR85"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUIElements"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginPage.TestMyAIR85"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7c1a1a68998e772.json",
+  "parameterValues" : [ ]
+}

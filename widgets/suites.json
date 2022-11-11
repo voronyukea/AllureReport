@@ -1,0 +1,114 @@
+{
+  "total" : 24,
+  "items" : [ {
+    "uid" : "8be19f1b46487da90c4609b860179f06",
+    "name" : "test.LoginPage.TestAuthClient",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1318da754aa4306e8ac9704cf0f54689",
+    "name" : "test.LoginPage.TestMyAIR114ua",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "902d87f1f0c6e34f16ec1e02374e92c8",
+    "name" : "test.LoginPage.TestMyAIR3eng",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f88b09ac9ac603a913076c88d978bc2a",
+    "name" : "test.LoginPage.TestMyAIR4esp",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "06c4842b779c61eac0e687ac4c6ee3e2",
+    "name" : "test.LoginPage.TestMyAIR63",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2158bed06bd80bd3bb2cc346aaa2db25",
+    "name" : "test.LoginPage.TestMyAIR86",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "97b022494a09b2659882fe8bf4164d69",
+    "name" : "test.LoginPage.TestMyAIR87",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bbe351589f772609731fb745e3c18cef",
+    "name" : "test.LoginPage.TestMyAIR9",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8c38a5fb16c85a9e9fda35e26e144c65",
+    "name" : "test.LoginPage.TestMyAIR91",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a18843de9de0aaf90ba7055a4a7eef3c",
+    "name" : "test.LoginPage.TestMyAIR114eng",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

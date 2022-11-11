@@ -1,0 +1,389 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test.LoginPage.TestAuthClient",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "b54ef25a6dee2fea",
+      "parentUid" : "8be19f1b46487da90c4609b860179f06",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158649445,
+        "stop" : 1668158669023,
+        "duration" : 19578
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8be19f1b46487da90c4609b860179f06"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR114eng",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "4b4eb4da2595045d",
+      "parentUid" : "a18843de9de0aaf90ba7055a4a7eef3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158669257,
+        "stop" : 1668158676524,
+        "duration" : 7267
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a18843de9de0aaf90ba7055a4a7eef3c"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR114esp",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "3edf29abea9acc3f",
+      "parentUid" : "5fddc3fd5052068924c3c70ef1a08b49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158676628,
+        "stop" : 1668158684292,
+        "duration" : 7664
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5fddc3fd5052068924c3c70ef1a08b49"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR114ru",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "5246b89b256c59c4",
+      "parentUid" : "ae258339d4df0426bcec6b5dcc7802bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158684401,
+        "stop" : 1668158691279,
+        "duration" : 6878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae258339d4df0426bcec6b5dcc7802bf"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR114ua",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "d6f7ddc009eeafa2",
+      "parentUid" : "1318da754aa4306e8ac9704cf0f54689",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158691377,
+        "stop" : 1668158705815,
+        "duration" : 14438
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1318da754aa4306e8ac9704cf0f54689"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR3eng",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "c51180919bfff0b5",
+      "parentUid" : "902d87f1f0c6e34f16ec1e02374e92c8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158705893,
+        "stop" : 1668158742760,
+        "duration" : 36867
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "902d87f1f0c6e34f16ec1e02374e92c8"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR4esp",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "95fd9616af28f5d9",
+      "parentUid" : "f88b09ac9ac603a913076c88d978bc2a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158742886,
+        "stop" : 1668158780764,
+        "duration" : 37878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f88b09ac9ac603a913076c88d978bc2a"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR63",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "5d99b76cec229326",
+      "parentUid" : "06c4842b779c61eac0e687ac4c6ee3e2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158780831,
+        "stop" : 1668158792121,
+        "duration" : 11290
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "06c4842b779c61eac0e687ac4c6ee3e2"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR78",
+    "children" : [ {
+      "name" : "checkInvalidPass()",
+      "uid" : "91cd8b26b35845b5",
+      "parentUid" : "834137d8b4270170741bdf0c99e0b45f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158792209,
+        "stop" : 1668158823351,
+        "duration" : 31142
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "834137d8b4270170741bdf0c99e0b45f"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR79",
+    "children" : [ {
+      "name" : "checkInvalidPass()",
+      "uid" : "965967e33e4c939b",
+      "parentUid" : "e0d2388441dab56dca6873baa7e19a5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158823415,
+        "stop" : 1668158857848,
+        "duration" : 34433
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0d2388441dab56dca6873baa7e19a5e"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR7mobile",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "719d1c76c9d00938",
+      "parentUid" : "51e3c13ce1bd919f0dc23f23cd79af55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158857916,
+        "stop" : 1668158862450,
+        "duration" : 4534
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51e3c13ce1bd919f0dc23f23cd79af55"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR7tablet",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "137de7e0a245c6",
+      "parentUid" : "91b249a548c644f7e35b7503372a2672",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158862538,
+        "stop" : 1668158867759,
+        "duration" : 5221
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "91b249a548c644f7e35b7503372a2672"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR80",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "5c6ff41fd8ec3a24",
+      "parentUid" : "b9a05e46c8f03353254eac11eee307a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158867887,
+        "stop" : 1668158884954,
+        "duration" : 17067
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9a05e46c8f03353254eac11eee307a7"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR81",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "39ea91c9e5f69195",
+      "parentUid" : "18a321677655f8a599a8cfde05997fb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158885048,
+        "stop" : 1668158902412,
+        "duration" : 17364
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "18a321677655f8a599a8cfde05997fb5"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR82",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "8ef8f6a4b7b9cb2a",
+      "parentUid" : "c291098684fd7362ad1d61a8b9a94f7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158902491,
+        "stop" : 1668158919750,
+        "duration" : 17259
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c291098684fd7362ad1d61a8b9a94f7a"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR83",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "3368fa5c801d37c1",
+      "parentUid" : "df5e334a406991b15db78fd1ab39bc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158919872,
+        "stop" : 1668158937183,
+        "duration" : 17311
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "df5e334a406991b15db78fd1ab39bc51"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR84",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "82a2027899377052",
+      "parentUid" : "b651a2ab794a2a18326068e0fe2139fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158937274,
+        "stop" : 1668158954343,
+        "duration" : 17069
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b651a2ab794a2a18326068e0fe2139fa"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR85",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "c7c1a1a68998e772",
+      "parentUid" : "d7cdeb6862581c5a6e9a90eb94ff0dcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158954448,
+        "stop" : 1668158972026,
+        "duration" : 17578
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d7cdeb6862581c5a6e9a90eb94ff0dcb"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR86",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "9ab801c9119ba5d0",
+      "parentUid" : "2158bed06bd80bd3bb2cc346aaa2db25",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158972101,
+        "stop" : 1668158980988,
+        "duration" : 8887
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2158bed06bd80bd3bb2cc346aaa2db25"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR87",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "7de8123d586f1f29",
+      "parentUid" : "97b022494a09b2659882fe8bf4164d69",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668158981116,
+        "stop" : 1668158990233,
+        "duration" : 9117
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "97b022494a09b2659882fe8bf4164d69"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR89",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "6747d65192390e0b",
+      "parentUid" : "149e34c6f22fa05505d12fba25acdccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668158990347,
+        "stop" : 1668159000116,
+        "duration" : 9769
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "149e34c6f22fa05505d12fba25acdccc"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR9",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "62d57016ecb4696a",
+      "parentUid" : "bbe351589f772609731fb745e3c18cef",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668159000228,
+        "stop" : 1668159019478,
+        "duration" : 19250
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbe351589f772609731fb745e3c18cef"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR90",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "eeeecde47dfd4146",
+      "parentUid" : "4c1763957f90446e1a721ff7fd8b9402",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668159019602,
+        "stop" : 1668159029673,
+        "duration" : 10071
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4c1763957f90446e1a721ff7fd8b9402"
+  }, {
+    "name" : "test.LoginPage.TestMyAIR91",
+    "children" : [ {
+      "name" : "checkUIElements()",
+      "uid" : "32cc0cc82eabfca6",
+      "parentUid" : "8c38a5fb16c85a9e9fda35e26e144c65",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668159029763,
+        "stop" : 1668159058133,
+        "duration" : 28370
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c38a5fb16c85a9e9fda35e26e144c65"
+  } ]
+}

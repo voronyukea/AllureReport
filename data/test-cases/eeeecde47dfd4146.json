@@ -1,0 +1,175 @@
+{
+  "uid" : "eeeecde47dfd4146",
+  "name" : "checkUIElements()",
+  "fullName" : "test.LoginPage.TestMyAIR90.checkUIElements",
+  "historyId" : "11e7b9d1bfc7e3dad142fefafa7902a7",
+  "time" : {
+    "start" : 1668159019602,
+    "stop" : 1668159029673,
+    "duration" : 10071
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Загрузка головної сторінки https://my.develop.airmedia.tech/",
+      "time" : {
+        "start" : 1668159019602,
+        "stop" : 1668159022712,
+        "duration" : 3110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вибір локалізації",
+      "time" : {
+        "start" : 1668159024720,
+        "stop" : 1668159025300,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Español "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного email",
+      "time" : {
+        "start" : 1668159025300,
+        "stop" : 1668159025605,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mailUser",
+        "value" : "MyAIR90@air.io"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного паролю",
+      "time" : {
+        "start" : 1668159025605,
+        "stop" : 1668159025718,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "PassCode",
+        "value" : "123456789"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку типу Submit",
+      "time" : {
+        "start" : 1668159025718,
+        "stop" : 1668159027789,
+        "duration" : 2071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірка наявності тексту в елементі",
+      "time" : {
+        "start" : 1668159027789,
+        "stop" : 1668159029673,
+        "duration" : 1884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : "Підключіть YouTube-канал та використовуйте всі переваги сервісів: керуйте заробітком у зручний спосіб, убезпечте контент від хакерів та санкцій платформи, прискорте ріст каналу та знайдіть нові джерела заробітку."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Перевірка сторінки входу"
+  }, {
+    "name" : "story",
+    "value" : "Перевірка локалізації (reg ua, login esp, ЛК ua) MyAIR-90"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I04KADM"
+  }, {
+    "name" : "thread",
+    "value" : "17272@DESKTOP-I04KADM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.LoginPage.TestMyAIR90"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginPage.TestMyAIR90"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUIElements"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginPage.TestMyAIR90"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eeeecde47dfd4146.json",
+  "parameterValues" : [ ]
+}

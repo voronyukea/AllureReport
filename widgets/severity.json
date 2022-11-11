@@ -1,0 +1,241 @@
+[ {
+  "uid" : "b54ef25a6dee2fea",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158649445,
+    "stop" : 1668158669023,
+    "duration" : 19578
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7de8123d586f1f29",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158981116,
+    "stop" : 1668158990233,
+    "duration" : 9117
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ab801c9119ba5d0",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158972101,
+    "stop" : 1668158980988,
+    "duration" : 8887
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c6ff41fd8ec3a24",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158867887,
+    "stop" : 1668158884954,
+    "duration" : 17067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6747d65192390e0b",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158990347,
+    "stop" : 1668159000116,
+    "duration" : 9769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5246b89b256c59c4",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158684401,
+    "stop" : 1668158691279,
+    "duration" : 6878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeeecde47dfd4146",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668159019602,
+    "stop" : 1668159029673,
+    "duration" : 10071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62d57016ecb4696a",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668159000228,
+    "stop" : 1668159019478,
+    "duration" : 19250
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "965967e33e4c939b",
+  "name" : "checkInvalidPass()",
+  "time" : {
+    "start" : 1668158823415,
+    "stop" : 1668158857848,
+    "duration" : 34433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51180919bfff0b5",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158705893,
+    "stop" : 1668158742760,
+    "duration" : 36867
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b4eb4da2595045d",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158669257,
+    "stop" : 1668158676524,
+    "duration" : 7267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "137de7e0a245c6",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158862538,
+    "stop" : 1668158867759,
+    "duration" : 5221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d99b76cec229326",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158780831,
+    "stop" : 1668158792121,
+    "duration" : 11290
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef8f6a4b7b9cb2a",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158902491,
+    "stop" : 1668158919750,
+    "duration" : 17259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3edf29abea9acc3f",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158676628,
+    "stop" : 1668158684292,
+    "duration" : 7664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3368fa5c801d37c1",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158919872,
+    "stop" : 1668158937183,
+    "duration" : 17311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6f7ddc009eeafa2",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158691377,
+    "stop" : 1668158705815,
+    "duration" : 14438
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "91cd8b26b35845b5",
+  "name" : "checkInvalidPass()",
+  "time" : {
+    "start" : 1668158792209,
+    "stop" : 1668158823351,
+    "duration" : 31142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "719d1c76c9d00938",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158857916,
+    "stop" : 1668158862450,
+    "duration" : 4534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95fd9616af28f5d9",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158742886,
+    "stop" : 1668158780764,
+    "duration" : 37878
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "32cc0cc82eabfca6",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668159029763,
+    "stop" : 1668159058133,
+    "duration" : 28370
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "82a2027899377052",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158937274,
+    "stop" : 1668158954343,
+    "duration" : 17069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39ea91c9e5f69195",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158885048,
+    "stop" : 1668158902412,
+    "duration" : 17364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c1a1a68998e772",
+  "name" : "checkUIElements()",
+  "time" : {
+    "start" : 1668158954448,
+    "stop" : 1668158972026,
+    "duration" : 17578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "c0b51145fa5725d42f77e0126cbed8d8",
+    "name" : "Перевірка сторінки входу",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

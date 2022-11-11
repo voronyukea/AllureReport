@@ -1,0 +1,376 @@
+{
+  "uid" : "3368fa5c801d37c1",
+  "name" : "checkUIElements()",
+  "fullName" : "test.LoginPage.TestMyAIR83.checkUIElements",
+  "historyId" : "88b657199dfd3b7417b7743a7fe44991",
+  "time" : {
+    "start" : 1668158919872,
+    "stop" : 1668158937183,
+    "duration" : 17311
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Загрузка головної сторінки https://my.develop.airmedia.tech/",
+      "time" : {
+        "start" : 1668158919872,
+        "stop" : 1668158922853,
+        "duration" : 2981
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перехід до розділу з реєстрацієй",
+      "time" : {
+        "start" : 1668158922854,
+        "stop" : 1668158923144,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Введення валідного імені",
+      "time" : {
+        "start" : 1668158923144,
+        "stop" : 1668158923921,
+        "duration" : 777
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameUser",
+        "value" : "AutoTestMyAIR83"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного email",
+      "time" : {
+        "start" : 1668158923921,
+        "stop" : 1668158924055,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mailUser",
+        "value" : "BagginsFromShire09@gmail.com"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Введення валідного паролю",
+      "time" : {
+        "start" : 1668158924055,
+        "stop" : 1668158924173,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "PassCode",
+        "value" : "123456789"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Клік на чек-боксі згоди з політикою",
+      "time" : {
+        "start" : 1668158924173,
+        "stop" : 1668158924220,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158924220,
+        "stop" : 1668158924672,
+        "duration" : 452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Русский "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158924672,
+        "stop" : 1668158926742,
+        "duration" : 2070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку",
+      "time" : {
+        "start" : 1668158926742,
+        "stop" : 1668158927443,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Такое значение поля Ваш email уже существует. "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158927443,
+        "stop" : 1668158928037,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Українська "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158928038,
+        "stop" : 1668158930105,
+        "duration" : 2067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку",
+      "time" : {
+        "start" : 1668158930105,
+        "stop" : 1668158930777,
+        "duration" : 672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "Вказане значення поля Ваш email вже існує. "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158930777,
+        "stop" : 1668158931318,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " Español "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158931318,
+        "stop" : 1668158933377,
+        "duration" : 2059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку",
+      "time" : {
+        "start" : 1668158933377,
+        "stop" : 1668158934055,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "El valor del campo Su correo electrónico ya está en uso."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вибір локалізації на сторінці реєстрації",
+      "time" : {
+        "start" : 1668158934055,
+        "stop" : 1668158934449,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " English "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Натиснути на кнопку Зареєструватися",
+      "time" : {
+        "start" : 1668158934449,
+        "stop" : 1668158936506,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірити, що є алерт про помилку",
+      "time" : {
+        "start" : 1668158936506,
+        "stop" : 1668158937183,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textErr",
+        "value" : "The Your email has already been taken."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 18,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Перевірка сторінки входу"
+  }, {
+    "name" : "story",
+    "value" : "Реєстрація вже зареєстрованого користувача MyAIR-83"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I04KADM"
+  }, {
+    "name" : "thread",
+    "value" : "17272@DESKTOP-I04KADM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.LoginPage.TestMyAIR83"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginPage.TestMyAIR83"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUIElements"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginPage.TestMyAIR83"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3368fa5c801d37c1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "719d1c76c9d00938",
+  "name" : "checkUIElements()",
+  "fullName" : "test.LoginPage.TestMyAIR7mobile.checkUIElements",
+  "historyId" : "1c264ed6d63068ec9dabf8fbe626ec6c",
+  "time" : {
+    "start" : 1668158857916,
+    "stop" : 1668158862450,
+    "duration" : 4534
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Загрузка головної сторінки https://my.develop.airmedia.tech/",
+      "time" : {
+        "start" : 1668158857917,
+        "stop" : 1668158860915,
+        "duration" : 2998
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Вибір локалізації",
+      "time" : {
+        "start" : 1668158860915,
+        "stop" : 1668158861409,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textElem",
+        "value" : " English "
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перехід до розділу з реєстрацієй",
+      "time" : {
+        "start" : 1668158861409,
+        "stop" : 1668158861470,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перевірка тултіпу Спосіб зв’язку (text label and placeholder)",
+      "time" : {
+        "start" : 1668158861471,
+        "stop" : 1668158862450,
+        "duration" : 979
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "toolTipText",
+        "value" : "Why do we need this information?\nWe are now responsible for your channel’s safety and well-being. We need a secure way to reach you in case of emergencies or to get information out about the latest platform updates and changes."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Перевірка сторінки входу"
+  }, {
+    "name" : "story",
+    "value" : "Довідка ? для планшетної версії, англійська локалізація"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I04KADM"
+  }, {
+    "name" : "thread",
+    "value" : "17272@DESKTOP-I04KADM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.LoginPage.TestMyAIR7mobile"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginPage.TestMyAIR7mobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUIElements"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginPage.TestMyAIR7mobile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "719d1c76c9d00938.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,385 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Перевірка сторінки входу",
+    "children" : [ {
+      "name" : "Авторизація користувача (валідні дані), іспанська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "b54ef25a6dee2fea",
+        "parentUid" : "9628bf7b9d62c38de0274e521b8af3ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158649445,
+          "stop" : 1668158669023,
+          "duration" : 19578
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9628bf7b9d62c38de0274e521b8af3ba"
+    }, {
+      "name" : "Перевірка статичних UI елементів розділу Авторизація, англійська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "4b4eb4da2595045d",
+        "parentUid" : "32ecec0f7e6f804b0faf5ce5c837f21a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158669257,
+          "stop" : 1668158676524,
+          "duration" : 7267
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32ecec0f7e6f804b0faf5ce5c837f21a"
+    }, {
+      "name" : "Перевірка статичних UI елементів розділу Авторизація, іспанська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "3edf29abea9acc3f",
+        "parentUid" : "5890b2d8ebe1122d18c3e65b298f3065",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158676628,
+          "stop" : 1668158684292,
+          "duration" : 7664
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5890b2d8ebe1122d18c3e65b298f3065"
+    }, {
+      "name" : "Перевірка статичних UI елементів розділу Авторизація, російська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "5246b89b256c59c4",
+        "parentUid" : "c966f6c1185074b7dcb2b727868d9431",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158684401,
+          "stop" : 1668158691279,
+          "duration" : 6878
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c966f6c1185074b7dcb2b727868d9431"
+    }, {
+      "name" : "Перевірка статичних UI елементів розділу Авторизація, українська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "d6f7ddc009eeafa2",
+        "parentUid" : "d02dcb701e5692d9e01262cd0bcb2302",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158691377,
+          "stop" : 1668158705815,
+          "duration" : 14438
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d02dcb701e5692d9e01262cd0bcb2302"
+    }, {
+      "name" : "Реєстрація нового користувача (валідні дані), англійська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "c51180919bfff0b5",
+        "parentUid" : "7bebc2671f0a3ec6317982bf3d34c7e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158705893,
+          "stop" : 1668158742760,
+          "duration" : 36867
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bebc2671f0a3ec6317982bf3d34c7e9"
+    }, {
+      "name" : "Реєстрація нового користувача (валідні дані), іспанська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "95fd9616af28f5d9",
+        "parentUid" : "0f645eb86e32cbd20319da5b03843294",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158742886,
+          "stop" : 1668158780764,
+          "duration" : 37878
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f645eb86e32cbd20319da5b03843294"
+    }, {
+      "name" : "Вхід юзера, якого раніше було заблоковано, всі 4 локалізації",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "5d99b76cec229326",
+        "parentUid" : "5e8ad3714059b3567be2f8ddde4722fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158780831,
+          "stop" : 1668158792121,
+          "duration" : 11290
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e8ad3714059b3567be2f8ddde4722fd"
+    }, {
+      "name" : "Введення невалідного Email MyAIR-78(перевірка вводу пустого значення, без @, без . , укр/рос )",
+      "children" : [ {
+        "name" : "checkInvalidPass()",
+        "uid" : "91cd8b26b35845b5",
+        "parentUid" : "48ae9d81617ab3b566065908a9159d6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158792209,
+          "stop" : 1668158823351,
+          "duration" : 31142
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48ae9d81617ab3b566065908a9159d6a"
+    }, {
+      "name" : "Введення невалідного пароля MyAIR-79",
+      "children" : [ {
+        "name" : "checkInvalidPass()",
+        "uid" : "965967e33e4c939b",
+        "parentUid" : "c72072198ec50baad45812a132049cfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158823415,
+          "stop" : 1668158857848,
+          "duration" : 34433
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c72072198ec50baad45812a132049cfb"
+    }, {
+      "name" : "Довідка ? для планшетної версії, англійська локалізація",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "719d1c76c9d00938",
+        "parentUid" : "c914a6a6b3ae07c21cdc2b8e55222372",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158857916,
+          "stop" : 1668158862450,
+          "duration" : 4534
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkUIElements()",
+        "uid" : "137de7e0a245c6",
+        "parentUid" : "c914a6a6b3ae07c21cdc2b8e55222372",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158862538,
+          "stop" : 1668158867759,
+          "duration" : 5221
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c914a6a6b3ae07c21cdc2b8e55222372"
+    }, {
+      "name" : "Введення невалідного значення в поле youtube MyAIR-80",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "5c6ff41fd8ec3a24",
+        "parentUid" : "54d2caf7da57ae907f96e70fd9fe8136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158867887,
+          "stop" : 1668158884954,
+          "duration" : 17067
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54d2caf7da57ae907f96e70fd9fe8136"
+    }, {
+      "name" : "Введення невалідного значення в поле Preferred contact(256 символів) MyAIR-81",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "39ea91c9e5f69195",
+        "parentUid" : "efe20f67d162a3072173c2ee88aade4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158885048,
+          "stop" : 1668158902412,
+          "duration" : 17364
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "efe20f67d162a3072173c2ee88aade4c"
+    }, {
+      "name" : "Реєстрація нового користувача (валідні дані, без підтвердження чекбокса політ. конф.) MyAIR-82",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "8ef8f6a4b7b9cb2a",
+        "parentUid" : "b1f29597de437917f7ae74f26e40a588",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158902491,
+          "stop" : 1668158919750,
+          "duration" : 17259
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1f29597de437917f7ae74f26e40a588"
+    }, {
+      "name" : "Реєстрація вже зареєстрованого користувача MyAIR-83",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "3368fa5c801d37c1",
+        "parentUid" : "1ba5a7018650c54b81c9b54f6f3754e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158919872,
+          "stop" : 1668158937183,
+          "duration" : 17311
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ba5a7018650c54b81c9b54f6f3754e9"
+    }, {
+      "name" : "Реєстрація користувача з порожніми полями MyAIR-84",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "82a2027899377052",
+        "parentUid" : "dd227132742af6e611a9da57a56b69ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158937274,
+          "stop" : 1668158954343,
+          "duration" : 17069
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd227132742af6e611a9da57a56b69ff"
+    }, {
+      "name" : "Реєстрація нового користувача (неправильні дані обов'язкові та опціональні поля) MyAIR-85",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "c7c1a1a68998e772",
+        "parentUid" : "357a1ecb33dde4eca5819e544be73c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158954448,
+          "stop" : 1668158972026,
+          "duration" : 17578
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "357a1ecb33dde4eca5819e544be73c18"
+    }, {
+      "name" : "Перехід за посиланням Privacy Policy в чекбоксі при реєстрації MyAIR-86",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "9ab801c9119ba5d0",
+        "parentUid" : "ca6cb005466fb3e0a9e603663d5ba028",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158972101,
+          "stop" : 1668158980988,
+          "duration" : 8887
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca6cb005466fb3e0a9e603663d5ba028"
+    }, {
+      "name" : "Перехід за посиланням Privacy Policy в футері при реєстрації MyAIR-87",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "7de8123d586f1f29",
+        "parentUid" : "fa5dd811bbedf3b03e39b3a25868c4cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668158981116,
+          "stop" : 1668158990233,
+          "duration" : 9117
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa5dd811bbedf3b03e39b3a25868c4cd"
+    }, {
+      "name" : "Перевірка локалізації (reg eng, login ru, ЛК eng) MyAIR-89",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "6747d65192390e0b",
+        "parentUid" : "33fbb95642ce95f015b3c69fe7b12e48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668158990347,
+          "stop" : 1668159000116,
+          "duration" : 9769
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33fbb95642ce95f015b3c69fe7b12e48"
+    }, {
+      "name" : "Редірект юзера в кабінет якщо залогінений при спробі зайти на login/register",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "62d57016ecb4696a",
+        "parentUid" : "fde5d9e2adbff14aa5cadd7a6d7294ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668159000228,
+          "stop" : 1668159019478,
+          "duration" : 19250
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fde5d9e2adbff14aa5cadd7a6d7294ca"
+    }, {
+      "name" : "Перевірка локалізації (reg ua, login esp, ЛК ua) MyAIR-90",
+      "children" : [ {
+        "name" : "checkUIElements()",
+        "uid" : "eeeecde47dfd4146",
+        "parentUid" : "ac1693131dd7ab91cbdefce2b2848cc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668159019602,
+          "stop" : 1668159029673,
+          "duration" : 10071
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkUIElements()",
+        "uid" : "32cc0cc82eabfca6",
+        "parentUid" : "ac1693131dd7ab91cbdefce2b2848cc0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668159029763,
+          "stop" : 1668159058133,
+          "duration" : 28370
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac1693131dd7ab91cbdefce2b2848cc0"
+    } ],
+    "uid" : "c0b51145fa5725d42f77e0126cbed8d8"
+  } ]
+}
